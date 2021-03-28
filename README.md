@@ -130,7 +130,7 @@ yarn
 2. Using your API key and the mnemonic for your MetaMask wallet (make sure you're using a MetaMask seed phrase that you're comfortable using for testing purposes), run:
 
 ```
-export ALCHEMY_KEY="<alchemy_project_id>" # or you can use INFURA_KEY
+export ALCHEMY_KEY="0x668ff2b98591134f64ec8852c9e5cce9eeacd09e"
 export MNEMONIC="<metmask_mnemonic>"
 DEPLOY_ACCESSORIES_SALE=1 yarn truffle migrate --network rinkeby
 ```
